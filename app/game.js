@@ -2,8 +2,8 @@ var poker = function(poker) {
 
     poker.play = function(black, white) {
         var bHand = new poker.Hand(black),
-            wHand = new poker.Hand(white);
-        rules = poker.rules.slice(0);
+            wHand = new poker.Hand(white),
+            rules = poker.rules.slice(0);
 
         var applyRules = function(output) {
             var rule;

@@ -12,7 +12,7 @@ var poker = function(poker) {
 
         var number = name[0],
             suite = name[1],
-            value = parseInt(scoreCard.indexOf(number));
+            value = scoreCard.indexOf(number);
 
         return {
             name: name,
